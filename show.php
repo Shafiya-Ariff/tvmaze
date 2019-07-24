@@ -102,10 +102,6 @@ $id = $_GET['id'];
     
     $url =$dataArray[$id]['show']['url'];
     
-    $preEp =$dataArray[$id]['show']['_links']['previousepisode']['href'];
-    
-    $preNext =$dataArray[$id]['show']['_links']['nextepisode']['href'];
-    
 
     
     echo "<div class='container'>";
