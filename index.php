@@ -53,9 +53,9 @@ for($i=0 ; $i < count($dataArray) ; $i++){
     $id=$i;
     
     echo "<div class='container'>";
-   echo "<div class='card mb-3' style='max-width:1000px; '>";
-  echo "<div class='row no-gutters'>";
-    echo "<div class='col-md-4'>";
+     echo "<div class='card mb-3' style='max-width:1000px; '>";
+      echo "<div class='row no-gutters'>";
+       echo "<div class='col-md-4'>";
       echo "<img src='data:image/jpg;base64,$image' class='card-img'>";
     echo "</div>";
     echo "<div class='col-md-8'>";
